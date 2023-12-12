@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(find path -type d | wc -l)
+echo $(find path -type "d" | wc -l)
